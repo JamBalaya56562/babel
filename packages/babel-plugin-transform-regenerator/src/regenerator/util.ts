@@ -39,7 +39,7 @@ if (!process.env.BABEL_8_BREAKING) {
         // Normally transform-runtime will fallback to just injecting the
         // helper inline, but we special handle this case to instead be able
         // to fallback to the old `regeneratorRuntime` helper
-        name: "__interal_marker_fallback_regenerator__",
+        name: "__internal_marker_fallback_regenerator__",
       })
     );
   };

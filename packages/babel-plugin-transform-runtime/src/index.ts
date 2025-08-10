@@ -184,7 +184,7 @@ export default declare((api, options: Options, dirname) => {
             ) {
               // See the `newHelpersAvailable` function in
               // babel-plugin-transform-regenerator/src/regenerator/util.ts
-              return t.identifier("__interal_marker_fallback_regenerator__");
+              return t.identifier("__internal_marker_fallback_regenerator__");
             }
             return;
           }
